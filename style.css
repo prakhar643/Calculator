@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poetsen One", sans-serif;
+    background-color: lightblue;
+    background-image: url('https://st2.depositphotos.com/4393299/7171/v/950/depositphotos_71718931-stock-illustration-doodle-calculator-seamless-pattern-background.jpg');
+    
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin:0 3px ;
+    border: 2px solid black;
+    border-radius: 8px; 
+    cursor: pointer;
+    background-color: lightyellow;
+   
+}
+.row{
+    margin: 8px 0;
+}
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row input{
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 213px;
+
+}
